@@ -53,7 +53,7 @@ def run_md():
     # Now run the dynamics
     printenergy(atoms)
     for i in range(20):
-        dyn.run(10)
+        dyn.run(14)
         printenergy(atoms)
 
 
